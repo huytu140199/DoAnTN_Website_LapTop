@@ -1,0 +1,67 @@
+.form-group {
+    display: inline;
+}
+
+.text-right {
+    float: right;
+}
+
+.text-left {
+    float: left;
+
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.header-form-login {
+    /* margin-bottom: 400px; */
+}
+
+.login_oueter {
+    position: relative;
+    width: 50%;
+    max-width: 95%;
+
+
+}
+
+.login_oueter form {
+    border-radius: 20px;
+}
+
+.logo_outer {
+    text-align: center;
+}
+
+.logo_outer img {
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+.form-row {
+    padding: 10px;
+}
+
+.form-row h4 {
+    text-align: center;
+}
+
+.form-row .center-button {
+    justify-content: center;
+    display: flex;
+}
+
+
+.header-form-login .register {
+    padding-bottom: 170px;
+}
+
+
+.float-right {
+    float: right;
+}

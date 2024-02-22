@@ -1,0 +1,208 @@
+.m-profile {
+    flex: 1;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.m-profile-router {
+    padding-top: 10px;
+
+    margin: 0 auto;
+}
+
+.m-profile-router a {
+    color: #000000;
+}
+
+.m-profile-router a:hover {
+    text-decoration: none;
+}
+
+.m-profile-container {
+    width: 100%;
+
+    margin-bottom: 100px;
+}
+
+.m-profile-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.m-profile-main {
+    width: 1200px;
+}
+
+.m-profile-avatar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-avatar-box {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+/* profile pic */
+.profile-pic {
+    width: 180px;
+    max-height: 180px;
+    display: inline-block;
+
+}
+
+.file-upload {
+    display: none;
+}
+
+.circle {
+    border-radius: 100% !important;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-image {
+    position: absolute;
+    top: 150px;
+    right: 3px;
+    color: #080808;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+.p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+.upload-button {
+    font-size: 2.5em;
+}
+
+.upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+}
+
+.m-profile-content {
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-profile-content .profile-content-item {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-content-item .profile-content-left {
+    width: 20%;
+}
+
+.profile-content-item .profile-content-right {
+    flex: 1;
+}
+
+
+.profile-content-left {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.profile-content-right {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.profile-input-text {
+    background: #FFFFFF;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    flex: 1;
+    padding: 6px 12px;
+}
+
+.profile-input-text:focus {
+    border: 1px solid #1a73e8;
+    outline: none;
+}
+
+.profile-content-right .profile-right-item {
+    flex: 1;
+    margin-right: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 6px 12px;
+}
+
+.profile-content-right .profile-right-item:focus {
+    border: 1px solid #1a73e8;
+    outline: none;
+}
+
+
+.profile-content-right .profile-right-item:not(:first-child) {
+    margin-right: 20px;
+}
+
+.profile-content-right .profile-input-radio {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.form-address {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.form-address select {
+    width: 32%;
+}
+
+.profile-content-right-input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.profile-content-right-input input {
+    width: 100%;
+
+}
+
+.m-icon-edit {
+    position: absolute;
+    right: 15px;
+}
+
+/* tết*/
